@@ -1,0 +1,27 @@
+##
+## Item definition file
+##
+##
+##
+
+maindata = GROUP
+maindata.name = TEXT
+maindata.name.maxLength: 128
+maindata.description = TEXT
+maindata.description.maxLength: 0
+maindata.cid = INTEGER
+maindata.hidden = BOOLEAN
+maindata.hidden.default = 1
+maindata.public = BOOLEAN
+maindata.public.default = 1
+
+details = GROUP
+details.manufactory = TEXT
+details.overall-length = INTEGER
+details.blade-length = INTEGER
+details.handle-length = INTEGER
+details.blade-material = TEXT
+details.handle-material = TEXT
+details.weight = INTEGER
+details.thickness = INTEGER
+details.hardness = TEXT

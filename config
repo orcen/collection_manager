@@ -1,0 +1,60 @@
+#
+#	Knife Catalog config file
+#
+
+#
+# DB settings
+
+db_type = mysql
+db_server = sql.janbenes-at-web.cz
+db_user = 878_knives
+db_password = 1983knivE
+db_database = 878_knives
+db_encoding = utf8
+
+#
+# system settings
+
+system_title = Collection Manager
+system_encoding = utf-8
+path_base = /data/www/virtuals/janbenes-at-web.cz/knives.janbenes-at-web.cz/
+path_system = path_base + system/
+path_modules = path_base + modules/
+path_helpers = path_base + helpers/
+path_logs = path_base + logs/
+path_uploads = path_base + uploads/
+path_images = path_base + uploads/images/
+path_templates = path_base + templates/
+domain = http://knives.janbenes-at-web.cz/
+
+default_language = cz
+
+singleuser_mode = true # No logging required
+
+#
+# Debugging
+debug = true
+
+#
+# Email settings
+admin_email = orcener@gmail.com
+system_email = system@Collman.com
+smtp_server = localhost
+smtp_authentication = FALSE
+smtp_user =
+smtp_password =
+
+# FTP Access to Unipushmedia system for IPhone
+
+ftp_server =
+ftp_user = 
+ftp_password = 
+ftp_dir = /
+
+# File Settings
+file_encoding = utf8
+max_file_upload_size = 5       # MB
+allowed_file_extensions = xml|cvs|xls   # Array separated by "|"
+max_image_size = 1024x768 # width x height
+allowed_image_types = jpg|jpeg|png|gif
+
